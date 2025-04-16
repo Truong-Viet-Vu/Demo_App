@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+video, canvas {
+  border: 1px solid #ccc;
+  width: 640px;
+  height: 480px;
+}
+
+.slider-control {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  }
+  
+input[type="range"] {
+  width: 300px;
+}
