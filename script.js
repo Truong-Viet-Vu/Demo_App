@@ -98,3 +98,14 @@ function drawFrame() {
 video.addEventListener('play', () => {
   drawFrame();
 });
+
+const videoButtons = document.querySelectorAll('.video-buttons button');
+
+videoButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const src = button.getAttribute('data-src');
+    video.src = src;
+    video.load();
+    video.play();
+  });
+});

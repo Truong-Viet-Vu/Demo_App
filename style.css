@@ -43,3 +43,15 @@ body {
 input[type="range"] {
   width: 300px;
 }
+
+.video-buttons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.video-buttons button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

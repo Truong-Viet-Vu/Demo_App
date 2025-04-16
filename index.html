@@ -10,16 +10,20 @@
   <h1>Video + Canvas Edge Display</h1>
   <div class="container">
     <video id="video" controls>
-      <source src="video.mp4" type="video/mp4">
+      <source src="video1.mp4" type="video/mp4">
       Trình duyệt của bạn không hỗ trợ video.
-    </video>
+    </video>    
     <canvas id="canvas"></canvas>
   </div>
   <div class="slider-control">
     <label for="threshold">Threshold: <span id="threshold-value">128</span></label>
     <input type="range" id="threshold" min="0" max="255" value="128" />
   </div>
-
+  <div class="video-buttons">
+    <button data-src="video1.mp4">Video 1</button>
+    <button data-src="video2.mp4">Video 2</button>
+    <button data-src="video3.mp4">Video 3</button>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
